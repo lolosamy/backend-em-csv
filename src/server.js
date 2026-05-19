@@ -30,7 +30,7 @@ exemploDeUso: 'http://localhost:3000/api/leituras/data/2026-04-01',
 
 app.use('/api', leiturasRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 async function startServer() {
   try {
